@@ -4,14 +4,14 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> An example showing the `tip` type prompt.
 > {: .prompt-tip }
 
-<!-- ## ✨**AN AWESOME**✨
+> An example showing the `info` type prompt.
+> {: .prompt-info }
 
-- 👋 Hi, I’m Awesome
-- 👀 I’m interested in : `Eat()`, `Sleep()`, `Code()`, `Repeat()`
+> An example showing the `warning` type prompt.
+> {: .prompt-warning }
 
-- 🌱 I’m currently learning `AI` & `DevOps`
-- 💞️ I’m looking to collaborate on `whatever` 😊
-- 📫 How to reach me : `awesome_devnet@outlook.com` -->
+> An example showing the `danger` type prompt.
+> {: .prompt-danger }
