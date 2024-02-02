@@ -15,4 +15,4 @@ order: 4
 
 - 🌱 I’m currently learning `AI` & `DevOps`
 - 💞️ I’m looking to collaborate on `whatever` 😊
-- 📫 How to reach me : `Email`
+- 📫 How to reach me : `awesome_devnet@outlook.com`
