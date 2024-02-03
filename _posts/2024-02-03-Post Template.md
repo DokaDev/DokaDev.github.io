@@ -33,6 +33,9 @@ tags: [blog]     # TAG names should always be lowercase
 
 #### H4 - heading
 {: data-toc-skip='' .mt-4 }
+
+Kramdown syntax
+mt : margin-top ; mb : margin-bottom
 ```
 
 ---
