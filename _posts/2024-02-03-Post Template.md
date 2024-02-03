@@ -2,6 +2,9 @@
 title: Post Template
 date: 2024-02-03 22:25:00 +0900
 categories: [Blog]
+pin: true
+math: true
+mermaid: true
 tags: [blog]     # TAG names should always be lowercase
 ---
 
@@ -82,12 +85,16 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
     * Paragraph
 ```
 
+### ToDo list
+
 - [ ] Job
   + [x] Step 1
   + [x] Step 2
   + [ ] Step 3
 
 ```md
+### ToDo list
+
 - [ ] Job
   + [x] Step 1
   + [x] Step 2
