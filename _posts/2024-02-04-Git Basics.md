@@ -21,13 +21,3 @@ The key features of Git include speed, performance suitable for large-scale proj
 * **Commit**: The act of recording changes to files or directories in the repository. Each commit has a unique ID that represents a snapshot at a specific point in time.
 * **Branch**: An independent workspace created from the existing code to work on new features or bug fixes in isolation.
 * **Merge**: The process of combining the development made in one branch back into the main branch.
-<!-- * **Tag**: Naming a specific commit for easy reference, often used for version releases.
-
-## Basic Usage of Git
-1. **Installing Git**: First, you need to install Git. You can download and install it from the official website for your operating system.
-2. **Initializing a Repository**: Run the `git init` command in your project folder to initialize a Git repository.
-3. **Committing Changes**: After modifying or adding files, use the `git add` command to add them to the staging area, and then `git commit` to create a commit and record the changes in the repository.
-4. **Branch Management**: Use the `git branch` command to create a new branch, and `git checkout` to switch between branches.
-5. **Remote Repositories**: Add a remote repository with `git remote and origin [remote repository URL]` and upload local repository changes to the remote repository with `git push`.
-
-##  -->
