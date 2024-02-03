@@ -1,8 +1,9 @@
 ---
 title: Post Template
+author: 
 date: 2024-02-03 22:25:00 +0900
 categories: [Blog]
-pin: true
+pin: false
 math: true
 mermaid: true
 tags: [blog]     # TAG names should always be lowercase
