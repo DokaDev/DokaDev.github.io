@@ -105,3 +105,7 @@ The MVVM pattern is crucial is modern software development.
 It allows developers to clearly separate UI from business logic, creating applications that are easy to maintain and extend.
 
 MVVM is particularly ideal for data-centric application and cross-platform development, continuing to play a significant role moving forward.
+
+### Additional Resources
+* [Microsoft Docs: Data binding overview](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/?view=netdesktop-8.0#:~:text=Data%20binding%20is%20the%20process%20that%20establishes%20a,are%20bound%20to%20the%20data%20reflect%20changes%20automatically.)
+* [Prism Library for WPF](https://prismlibrary.com/)
