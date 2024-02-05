@@ -24,7 +24,7 @@ The MVVM pattern is widely used in various .NET-based platforms, including WPF, 
 * **Command**: The ViewModel handles user actions(e.g., button clicks) through commands, defined within the ViewModel and executed without direct dependencies on the View.
 * **Dependency Injection**: MVVM manages dependencies between the ViewModel and Model through dependency injection, simplifying testing and maintenance.
 
----
+
 ### Example
 Let's create a simple "User Message Display" application using C# WPF with the MVVM pattern.
 In this example, we'll implement functionality to store a message input by the user in the Model through the ViewModel and display the saved message in the View.
