@@ -20,10 +20,12 @@ Particularly favored in the .NET technology stack, MVVM clearly separates each c
 The MVVM pattern is widely used in various .NET-based platforms, including WPF, UWP(Universal Windows Platform), Xamarin, and the recent .NET MAUI(Multi-Platform App UI). These technologies all use XAML to define UI and offer advanced features for binding UI with data sources. MVVM also facilitates cross-platform development and enhances code reusability.
 
 ### Principles of MVVM
-* Data Binding: One of the core principles of MVVM. It ensures that changes in the ViewModel's data are automatically reflected in the View, minimizing code-behind and enabling declarative UI definitions.
-* Command: The ViewModel handles user actions(e.g., button clicks) through commands, defined within the ViewModel and executed without direct dependencies on the View.
-* Dependency Injection: MVVM manages dependencies between the ViewModel and Model through dependency injection, simplifying testing and maintenance.
+* **Data Binding**: One of the core principles of MVVM. It ensures that changes in the ViewModel's data are automatically reflected in the View, minimizing code-behind and enabling declarative UI definitions.
+* **Command**: The ViewModel handles user actions(e.g., button clicks) through commands, defined within the ViewModel and executed without direct dependencies on the View.
+* **Dependency Injection**: MVVM manages dependencies between the ViewModel and Model through dependency injection, simplifying testing and maintenance.
+
 ---
+### Example
 Let's create a simple "User Message Display" application using C# WPF with the MVVM pattern.
 In this example, we'll implement functionality to store a message input by the user in the Model through the ViewModel and display the saved message in the View.
 
