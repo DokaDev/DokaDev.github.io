@@ -36,19 +36,19 @@ public:
         // If x is negative or ends with 0 but is not 0, it cannot be a palindrome.
         if(x < 0 || (x % 10 == 0 && x != 0)) return false;
 
-        int revertedNumber = 0;
+        int revercedNumber = 0;
         // Reverse half of the number to compare with the other half.
-        while(x > revertedNumber) {
-            // Add the last digit of x to revertedNumber.
-            revertedNumber = revertedNumber * 10 + x % 10;
+        while(x > revercedNumber) {
+            // Add the last digit of x to revercedNumber.
+            revercedNumber = revercedNumber * 10 + x % 10;
             x /= 10; // Remove the last digit from x.
         }
 
-        // For numbers with an odd number of digits, we can get rid of the middle digit by reverted / 10.
-        // For example, in the case of 12321, at the end of the loop we will have x = 12, revertedNumber = 123,
-        // so we compare x with revertedNumber / 10.
+        // For numbers with an odd number of digits, we can get rid of the middle digit by reverced / 10.
+        // For example, in the case of 12321, at the end of the loop we will have x = 12, revercedNumber = 123,
+        // so we compare x with revercedNumber / 10.
         // This handles both even and odd length numbers by checking if the original number or its half-reversed version matches.
-        return x == revertedNumber || x == revertedNumber / 10;
+        return x == revercedNumber || x == revercedNumber / 10;
     }
 };
 ```
