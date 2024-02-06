@@ -15,4 +15,4 @@ You can get download and install Git through the link below.
 
 [Link Here](https://git-scm.com/)
 
-![image](../assets/post/Git%20Commands%20-%20An%20Essential%20Guide%20for%20Developers/0.png){ :shadow .rounded-10 }
+![image](../assets/post/Git%20Commands%20-%20An%20Essential%20Guide%20for%20Developers/0.png){: .dark .light  .shadow .rounded-10}
