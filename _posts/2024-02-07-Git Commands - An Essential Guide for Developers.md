@@ -3,7 +3,7 @@ title: Git Commands - An Essential Guide for Developers
 date: 2024-02-07 00:01:00 +0900
 image: 
     path: /assets/post/git/1.png
-    alt: Created by DALL-E
+    alt: The cover image is created by DALL-E
 categories: [Git]
 tags: [git]     # TAG names should always be lowercase
 ---
