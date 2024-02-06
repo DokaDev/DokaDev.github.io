@@ -15,6 +15,7 @@ You can get download and install Git through the link below.
 
 [Link Here](https://git-scm.com/)
 
-![image](../assets/post/Git%20Commands%20-%20An%20Essential%20Guide%20for%20Developers/0.png){: .dark .light  .shadow .rounded-10}
+![image](../assets/post/Git%20Commands%20-%20An%20Essential%20Guide%20for%20Developers/0.png)
+{: .light  .shadow .rounded-10}
 
 After installation, it's essential to configure your user name and email address before you start using Git, as this information is used in every commit.
