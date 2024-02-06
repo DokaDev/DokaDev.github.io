@@ -1,7 +1,7 @@
 ---
 title: MVVM Basics
 date: 2024-02-05 03:01:00 +0900
-categories: [Programming, Architecture Patterns]
+categories: [Object Oriented, Architecture Patterns]
 tags: [mvvm, c#, wpf]     # TAG names should always be lowercase
 ---
 

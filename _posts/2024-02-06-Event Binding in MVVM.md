@@ -1,7 +1,7 @@
 ---
 title: Event Binding in MVVM
 date: 2024-02-06 20:01:00 +0900
-categories: [Programming, Architecture Patterns]
+categories: [Object Oriented, Architecture Patterns]
 tags: [mvvm, c#, wpf]     # TAG names should always be lowercase
 ---
 > Using ICommand and RelayCommand in WPF
