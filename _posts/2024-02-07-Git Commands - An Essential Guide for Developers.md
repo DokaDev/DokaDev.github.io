@@ -18,3 +18,10 @@ You can get download and install Git through the link below.
 ![image](../assets/post/Git%20Commands%20-%20An%20Essential%20Guide%20for%20Developers/0.png)
 
 After installation, it's essential to configure your user name and email address before you start using Git, as this information is used in every commit.
+
+{% include embed/youtube.html id='Balreaj8Yqs' %}
+
+The image below will toggle dark/light mode based on theme preference, notice it has shadows.
+
+![light mode only](https://pngimg.com/uploads/macbook/macbook_PNG101747.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](https://pngimg.com/uploads/macbook/macbook_PNG101747.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
