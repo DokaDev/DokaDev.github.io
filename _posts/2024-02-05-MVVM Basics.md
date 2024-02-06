@@ -34,7 +34,7 @@ The View constructs the user interface. It includes a `TextBox` for user message
 Data binding is set up by binding the `DataContext` to `MessageViewModel`.
 
 ```xml
-<Window x:Class="MVVMPractice.MainWindow"
+<Window x:Class="MvvmPractice.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MVVM Example" Height="200" Width="400">
