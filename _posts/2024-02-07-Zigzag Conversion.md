@@ -1,8 +1,8 @@
 ---
 title: Zigzag Conversion
-date: 2024-02-07 15:00:00 +0900
+date: 2024-02-04 00:01:00 +0900
 categories: [CodeTest, LeetCode]
-tags: [leetcode, c++]  TAG names should always be lowercase
+tags: [leetcode, c++]     # TAG names should always be lowercase
 ---
 
 [Problem Link](https://leetcode.com/problems/zigzag-conversion)
