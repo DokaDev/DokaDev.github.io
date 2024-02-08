@@ -15,7 +15,7 @@ This is particularly important in embedded system development, operating system 
 Let's examine the process of creating cross-compilers with GCC and Binutils on an Ubuntu system, including post-installation verification and detailed usage examples.
 
 > The versions and commands provided here are subject to change over time, so it's best to check the latest information before starting your work.
-{: prompt-warning }
+{: .prompt-warning }
 
 ## Installing Necessary Tools and Libraries
 ```bash
