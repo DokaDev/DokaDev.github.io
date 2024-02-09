@@ -67,9 +67,9 @@ mkdir build && cd build
 
 ../configure --target=x86_64-pc-linux-gnu --prefix=/usr/cross --disable-nls --enable-languages=c,c++ --without-headers --disable-shared --with-system-zlib
 
-make
+make all-gcc
 
-sudo make install
+sudo make install-gcc
 ```
 * `wget`: Downloads the GCC source code.
 * `tar -xzvf`: Unpacks the source code.
