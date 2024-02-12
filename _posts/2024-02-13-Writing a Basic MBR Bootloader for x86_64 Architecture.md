@@ -10,29 +10,29 @@ A crucial player is the `bootloader`.
 In this post, we're going to craft a bootloader for the x86_64 architecture from scratch.
 Before we dive into coding, let's first understand what MBR is.
 
-# What is MBR(Master Boot Record)?
+## What is MBR(Master Boot Record)?
 MBR is a 512-byte area at the beginning of the disk, containing the code necessary for booting along with partition information.
 This area is structured as follows:
 
-# How the Bootloader Works
+## How the Bootloader Works
 When the computer is powered on, the BIOS or UEFI finds and loads the MBR into memory and executes it.
 The code in the MBR then loads the next stage bootloader or directly starts the operating system.
 
-# Setting Up the Development Environment
+## Setting Up the Development Environment
 To develop a bootloader, we need to install NASM and QEMU. NASM will translate our assembly code into machine code, and QEMU will allow us to test our bootloader in a virtual environment.
 
-## Installing NASM
+### Installing NASM
 Linux users can install it through their package manager:
 ```bash
 sudo apt-get install nasm
 ```
 
-## Installing QEMU
+### Installing QEMU
 ```bash
 sudo apt-get install qemu
 ```
 
-# Writing Your First MBR Bootloader Code
+## Writing Your First MBR Bootloader Code
 Let's start with a simple example.
 This code will display the message "Hello, MBR!" on the screen.
 
@@ -62,7 +62,7 @@ times 510-($-$$) db 0  ; Fill the boot sector to 512 bytes
 dw 0xaa55               ; Signature at the end of the boot sector
 ```
 
-## Compiling and Running the Code
+### Compiling and Running the Code
 Save this code as `hello_mbr.asm`, then use NASM to compile it into a binary:
 
 ```bash
