@@ -30,7 +30,7 @@ $1 \le r1 \le r2 \le 1,000,000$
 | ---- | ---- | ------ |
 | 2    | 3    | 20     |
 
-![image](assets/post/programmers/181187/0.png){: .left .w-75 .shadow .rounded-10 }
+![image](assets/post/programmers/181187/0.png){: .normal .w-75 .shadow .rounded-10 }
 
 As shown in the illustration, there are a total of 20 points with integer pairs.
 
