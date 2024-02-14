@@ -20,6 +20,8 @@ A developer named Brendan Forster has created an unofficial version of GitHub De
 
 _click image to visit repository_
 
+Click on the area indicated in the image. The latest release as of now is 3.3.8 RC2. Select the latest release at the time of your installation.
+
 Download the `*.deb` package suitable for your architecture. If you are using a different architecture or a system not based on Debian like Ubuntu, you should download the file appropriate for your system.
 
 ![Package](assets/post/git/4.png){: .w-75 .shadow .rounded-10 }
