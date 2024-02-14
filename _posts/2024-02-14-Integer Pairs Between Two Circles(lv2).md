@@ -20,7 +20,7 @@ In a 2D Cartesian coordinate system with the origin at the center, two circles o
 
 #### Constraints
 
-$ 1 \le r1 \le r2 \le 1,000,000 $
+$1 \le r1 \le r2 \le 1,000,000$
 
 
 
