@@ -1,6 +1,7 @@
 ---
 title: Integer Pairs Between Two Circles(lv2)
 date: 2024-02-14 13:01 +0900
+math: true
 categories: [CodeTest, Programmers]
 tags: [programmers, c++]     # TAG names should always be lowercase
 ---
@@ -19,10 +20,7 @@ In a 2D Cartesian coordinate system with the origin at the center, two circles o
 
 
 #### Constraints
-
-$$
-1 \le r1 \le r2 \le 1,000,000
-$$
+$1 \le r1 \le r2 \le 1,000,000$
 
 
 
