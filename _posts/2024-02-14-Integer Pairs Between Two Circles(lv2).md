@@ -1,10 +1,9 @@
 ---
-title: Inherited Code
+title: Integer Pairs Between Two Circles(lv2)
 date: 2024-02-14 13:01 +0900
 categories: [CodeTest, Programmers]
 tags: [programmers, c++]     # TAG names should always be lowercase
 ---
-# Lv.2 : Integer Pairs Between Two Circles
 
 [Problem Link](https://school.programmers.co.kr/learn/courses/30/lessons/181187#)
 
