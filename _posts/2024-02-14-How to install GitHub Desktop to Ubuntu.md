@@ -7,7 +7,7 @@ tags: [linux, git, github]     # TAG names should always be lowercase
 
 GitHub Desktop is a graphical user interface (GUI) tool that makes using Git and GitHub easier. As of the current date (February 14, 2024), this tool is available only for Windows and Mac environments. Users of these environments can install GitHub Desktop through the link below.
 
-[GitHub Desktop | Simple collaboration from your desktop](https://desktop.github.com/)
+[GitHub Desktop](https://desktop.github.com/)
 
 However, GitHub Desktop is not natively available for Linux environments. Therefore, we need to use a different method to install GitHub Desktop on Ubuntu. This involves the following steps:
 
