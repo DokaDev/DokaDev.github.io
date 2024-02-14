@@ -36,7 +36,7 @@ sudo apt-get install qemu
 Let's start with a simple example.
 This code will display the message "Hello, MBR!" on the screen.
 
-```assembly
+```
 [org 0x7c00]  ; The MBR is loaded at address 0x7c00.
 
 mov ah, 0x0e  ; BIOS interrupt for printing characters in text mode
