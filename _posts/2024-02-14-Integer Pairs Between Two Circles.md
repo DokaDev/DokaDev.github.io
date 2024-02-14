@@ -49,18 +49,18 @@ long long solution(int r1, int r2) {
     // This includes points within and on the boundary of the two circles along the y-axis.
     long long result = r2 - r1 + 1;
     
-    
     long long rr1 = static_cast<long long>(r1) * r1;
     long long rr2 = static_cast<long long>(r2) * r2;
 
-    for (int x = 1; x < r2; x++) {
+    // Loop through each x-coordinate from 1 to r2 (not including 0 as it's already counted)
+    for (int x = 1; x < r2; x++) { 
         long long xx = static_cast<long long>(x) * x;
         int maxY = static_cast<int>(sqrt(rr2 - xx));
 
-        if (x < r1) {
+        if (x < r1) { // If x is within the smaller circle
             int minY = static_cast<int>(ceil(sqrt(rr1 - xx)));
             result += maxY - minY + 1;
-        } else result += maxY;
+        } else result += maxY; // If x is outside the smaller circle
     }
     return result * 4;
 }
