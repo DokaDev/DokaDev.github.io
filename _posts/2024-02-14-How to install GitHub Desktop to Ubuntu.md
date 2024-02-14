@@ -1,7 +1,6 @@
 ---
 title: How to Install GitHub Desktop on Ubuntu
 date: 2024-02-14 14:25 +0900
-pin: true
 mermaid: true
 categories: [Git, GitHub]
 tags: [linux, git, github]     # TAG names should always be lowercase
