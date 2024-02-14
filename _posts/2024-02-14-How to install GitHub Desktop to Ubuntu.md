@@ -14,9 +14,9 @@ However, GitHub Desktop is not natively available for Linux environments. Theref
 
 ## Installation Using Debian Package
 
-A developer named Brendan Forster has created an unofficial version of GitHub Desktop for Linux users. We will use this to install GitHub Desktop.
+A developer named **Brendan Forster** has created an unofficial version of GitHub Desktop for Linux users. We will use this to install GitHub Desktop.
 
-![Repository](assets/post/git/3.png){: .w-75 .shadow .rounded-10 }
+[![Repository](assets/post/git/3.png){: .w-75 .shadow .rounded-10 }](https://github.com/shiftkey/desktop)
 
 _click image to visit repository_
 
