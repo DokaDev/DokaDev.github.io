@@ -3,6 +3,7 @@ title: Integer Pairs Between Two Circles(lv2)
 date: 2024-02-14 13:01 +0900
 math: true
 pin: true
+mermaid: true
 categories: [CodeTest, Programmers]
 tags: [programmers, c++]     # TAG names should always be lowercase
 ---
