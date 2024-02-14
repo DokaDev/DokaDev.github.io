@@ -16,17 +16,17 @@ However, GitHub Desktop is not natively available for Linux environments. Theref
 
 A developer named Brendan Forster has created an unofficial version of GitHub Desktop for Linux users. We will use this to install GitHub Desktop.
 
-![Repository](assets/post/git/3.png) {: .w-75 .shadow .rounded-10 }
+![Repository](assets/post/git/3.png){: .w-75 .shadow .rounded-10 }
 
 _click image to visit repository_
 
 Download the `*.deb` package suitable for your architecture. If you are using a different architecture or a system not based on Debian like Ubuntu, you should download the file appropriate for your system.
 
-![Package](assets/post/git/4.png) {: .w-75 .shadow .rounded-10 }
+![Package](assets/post/git/4.png){: .w-75 .shadow .rounded-10 }
 
 Navigate to the directory where the package was downloaded using the terminal, and then use `apt` to perform the installation.
 
-![Install](assets/post/git/5.PNG) {: .w-75 .shadow .rounded-10 }
+![Install](assets/post/git/5.PNG){: .w-75 .shadow .rounded-10 }
 
 ```bash
 # Check the filename of the downloaded package
@@ -37,7 +37,7 @@ sudo apt install ./GitHubDesktop-linux-amd64-3.3.8-linux2.deb
 ```
 After completing the installation, you can use the GitHub Desktop client normally.
 
-![Run](assets/post/git/6.PNG) {: .w-75 .shadow .rounded-10 }
+![Run](assets/post/git/6.PNG){: .w-75 .shadow .rounded-10 }
 
 > Please note that the installation environment mentioned here is based on Ubuntu 23.10, release 3.3.8 RC2. The installation method may change with future improved releases.
-{: .prompt-warn }
+{: .prompt-warning }
