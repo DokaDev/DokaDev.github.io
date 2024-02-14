@@ -16,9 +16,7 @@ However, GitHub Desktop is not natively available for Linux environments. Theref
 
 A developer named **Brendan Forster** has created an unofficial version of GitHub Desktop for Linux users. We will use this to install GitHub Desktop.
 
-[![Repository](assets/post/git/3.png){: .w-75 .shadow .rounded-10 }](https://github.com/shiftkey/desktop)
-
-_click image to visit repository_
+[![Repository](assets/post/git/3.png){: .w-75 .shadow .rounded-10 }](https://github.com/shiftkey/desktop)click image to visit repository
 
 Click on the area indicated in the image. The latest release as of now is 3.3.8 RC2. Select the latest release at the time of your installation.
 
