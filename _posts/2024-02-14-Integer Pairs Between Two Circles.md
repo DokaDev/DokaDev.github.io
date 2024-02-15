@@ -1,5 +1,5 @@
 ---
-title: Integer Pairs Between Two Circles(lv2)
+title: Integer Pairs Between Two Circles
 date: 2024-02-14 13:01 +0900
 math: true
 categories: [CodeTest, Programmers]
