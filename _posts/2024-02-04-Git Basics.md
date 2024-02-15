@@ -1,7 +1,7 @@
 ---
 title: Git Basics
 date: 2024-02-04 00:01:00 +0900
-categories: [Git]
+categories: [Version Control Management, Git]
 tags: [git]     # TAG names should always be lowercase
 ---
 

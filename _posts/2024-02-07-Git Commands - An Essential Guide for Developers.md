@@ -4,7 +4,7 @@ date: 2024-02-07 00:01:00 +0900
 image: 
     path: /assets/post/git/1.png
     alt: The cover image is created by DALL-E
-categories: [Git]
+categories: [Version Control Management, Git]
 tags: [git]     # TAG names should always be lowercase
 ---
 

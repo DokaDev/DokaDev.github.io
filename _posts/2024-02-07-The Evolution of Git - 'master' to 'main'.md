@@ -4,7 +4,7 @@ date: 2024-02-07 20:00:00 +0900
 image: 
     path: /assets/post/git/2.png
     alt: The cover image is created by DALL-E
-categories: [Git]
+categories: [Version Control Management, Git]
 tags: [git]     # TAG names should always be lowercase
 ---
 The world of software development is in constant flux, evolving not just technologically but also in the language and terminology we use.
