@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Doka Lab # the main title
 
-tagline: Tech Blog # it will display as the sub-title
+tagline: Doka's awesome and elegant knowledge repository! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Minimal Docs site for Personal Research and Study.
