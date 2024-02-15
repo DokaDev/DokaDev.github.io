@@ -60,6 +60,32 @@ Given an integer, convert it to a roman numeral.
 
 * $1 \e num \le 3999$
 
+
+
+---
+
+#### Solution
+
+* **Objective**: Convert integers to Roman numerals.
+* **Roman Numeral Symbols**:  I(1), V(5), X(10), L(50), C(100), D(500), M(1000)
+
+
+
+##### Conversion Rules
+
+* Mostly written in descending order from larger to smaller values.
+* Specific combinations where a smaller value precedes a larger value imply subtraction(e.g., IV = 4, IX = 9)
+
+
+
+##### Implementation Method
+
+* **Value and Symbol Mapping**: Store the numbers and corresponding Roman numeral symbols in arrays.
+* **Conversion Process**: 
+  * Start with the given integer.
+  * If the integer is greater than or equal to the current Roman numeral value, append the symbol to the result and subtract the value.
+  * Repeat for all Roman numeral values.
+
 ```c++
 class Solution {
 public:
