@@ -2,6 +2,7 @@
 title: Integer to Roman
 date: 2024-02-15 14:10:00 +0900
 categories: [CodeTest, LeetCode]
+math: true
 tags: [leetcode, c++]     # TAG names should always be lowercase
 ---
 
@@ -58,3 +59,27 @@ Given an integer, convert it to a roman numeral.
 #### Constraints:
 
 * $1 \e num \le 3999$
+
+```c++
+class Solution {
+public:
+    string intToRoman(int num) {
+        // Arrays to store the values corresponding to Roman numerals
+        vector<int> values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        vector<string> symbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+        // String to store the resulting Roman numeral
+        string roman = "";
+
+        // Convert the given number to a Roman numeral
+        for(int i = 0; i < values.size() && num > 0; i++) {
+            // Check how many times the current value can represent the number
+            while(num >= values[i]) { 
+                num -= values[i];   // Substract the value from num
+                roman += symbols[i];    // Add the corresponding Roman Numeral to the result
+            }
+            return roman;
+        }
+    }
+}
+```
