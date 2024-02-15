@@ -58,7 +58,7 @@ Given an integer, convert it to a roman numeral.
 
 #### Constraints:
 
-* $1 \e num \le 3999$
+* $1 \le num \le 3999$
 
 
 
