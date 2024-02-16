@@ -18,6 +18,7 @@ The Euclidean algorithm calculates the GCD of two natural numbers, $A$ and $B(A 
 ### Detailed Explanation of the Algorithm Principle
 
 The Euclidean algorithm simplifies the process of finding the GCD of two natural numbers $A$ and $B$. The mathematical principle of the Euclidean algorithm can be expressed as follows:
+
 $$
 GCD(A, B) = GCD(B, A\mod B)
 $$
