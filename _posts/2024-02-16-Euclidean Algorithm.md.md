@@ -13,7 +13,7 @@ Euclidean algorithm, introduced by the ancient Greek mathematician Euclid in "El
 
 ## Concept of the Euclidean Algorithm
 
-The Euclidean algorithm calculates the GCD of two natural numbers, $A$ and $B(A > B)$, based on the principle that the GCD of $A$ and $B$ is the same as the GCD of $B$ and the remainder `R` of $A$ divided by $B$. This process is repeated until the remainder `R` becomes 0, at which point $B$ is the GCD of $A$ and $B$.
+The Euclidean algorithm calculates the GCD of two natural numbers, $A$ and $B(A > B)$, based on the principle that the GCD of $A$ and $B$ is the same as the GCD of $B$ and the remainder $R$ of $A$ divided by $B$. This process is repeated until the remainder $R$ becomes 0, at which point $B$ is the GCD of $A$ and $B$.
 
 ### Detailed Explanation of the Algorithm Principle
 
@@ -29,8 +29,8 @@ Here, $A \mod B$ represents the remainder  of $A$ divided by $B$. This formula i
 The process can be detailed as follows:
 
 1. **Input**: Two natural numbers $A$ and $B$ are received as input. If $A < B$, the positions of the two numbers are swapped within the algorithm to ensure that $A$ is greater than $B$, providing flexibility and generalizing the starting condition.
-2. **Calculate Remainder**: Calculate the remainder `R` of $A$ divided by $B$. This step is key to transforming the relationship between $A$ and $B$ into a smaller numerical relationship.
-3. **Swap Values**: Set the value of $B$ to $A$, and the calculated remainder `R` to $B$. This process gradually reduces the problem size, preparing for the final derivation of the GCD.
+2. **Calculate Remainder**: Calculate the remainder $R$ of $A$ divided by $B$. This step is key to transforming the relationship between $A$ and $B$ into a smaller numerical relationship.
+3. **Swap Values**: Set the value of $B$ to $A$, and the calculated remainder $R$ to $B$. This process gradually reduces the problem size, preparing for the final derivation of the GCD.
 4. **Repeat**: Repeat steps 2 and 3 until $B$ becomes 0. At the moment $B$ is 0, the values stored in $A$ is the GCD of the two numbers $A$ and $B$.
 
 This method allows for the efficient determination of the GCD of any two natural number, demonstrating the powerful mathematical principle within the simplicity of the Euclidean algorithm.
