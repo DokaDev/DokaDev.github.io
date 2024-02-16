@@ -18,7 +18,7 @@ order: 4
 
 ## ✨**AN AWESOME**✨
 
-* 👋 Hi, I’m Awesome
+* 👋 Hi, I’m Awesome. I'v been as a system software engineer since 2018.
 * 👀 I’m interested in :
 `Eat()`, `Sleep()`, `Code()`, `Repeat()`
 
