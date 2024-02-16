@@ -1,6 +1,9 @@
 ---
 title: Euclidean Algorithm
 date: 2024-02-16 15:50:00 +0900
+image: 
+    path: /assets/post/cs/algorithm/0.png
+    alt: The cover image is created by DALL-E
 categories: [Computer Science, Algorithm]
 math: true
 tags: [algorithm]     # TAG names should always be lowercase
