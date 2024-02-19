@@ -1,6 +1,6 @@
 ---
 title: Tower of Hanoi
-date: 2024-02-19 23:20:00 +0900
+date: 2024-02-19 23:23:00 +0900
 categories: [Computer Science, Algorithm]
 math: true
 tags: [algorithm]     # TAG names should always be lowercase
