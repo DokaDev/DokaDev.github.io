@@ -60,8 +60,6 @@ Given an integer, convert it to a roman numeral.
 
 * $1 \le num \le 3999$
 
-
-
 ---
 
 #### Solution
