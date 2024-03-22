@@ -1,5 +1,5 @@
 ---
-title: 3Sum Closest
+title: 3Sum Closest 
 date: 2024-02-21 17:00:00 +0900
 math: true
 categories: [CodeTest, LeetCode]
