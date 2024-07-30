@@ -16,7 +16,7 @@ Jekyll site. The following is a list of targets:
 
 ```shell
 .
-├── _config.yml
+├── _config.yml 
 ├── _plugins
 ├── _tabs
 └── index.html
